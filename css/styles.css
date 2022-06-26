@@ -18,6 +18,7 @@ img {
 button {
     padding: 0;
 }
+strong {font-weight: 700;}
 body {
     background-color: var(--white-color);
     color: var(--primary-text-color);
@@ -268,8 +269,48 @@ margin-right: 10px;
 .social-icon {
 fill: currentColor;
 }
+/* Our clients */
+.clients {
+text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.clients-cont {
+display: flex;
+justify-content: center;
+}
+.clients-card {
+    display: flex;
+    
+    }
+    
+.clients-card:not(:last-child) {
+margin-right: 30px;
+}
+.clients-link {
+    padding: 16px 32px 16px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+ }
 
-/* Sort */
+ .clients-link:hover,
+ .clients-link:focus {
+    border: none;
+    outline: 1px solid;
+    color: var(--accent-color);
+ }
+
+.client-icon {
+    fill: currentColor;
+    
+}
+ /* Sort */
 .button-cont {
     display: flex;
     justify-content: center;
@@ -346,6 +387,7 @@ margin-right: 10px;
         }
         /* Footer */
 .footer-logo {
+margin-right: 156px;
 margin-bottom: 20px;
 display: block;
 font-family: 'Raleway';
@@ -362,7 +404,38 @@ line-height: 1.19;
     background-color: var(--second-background-color);
     color: var(--white-color);
 }
-    
+.add-container {
+    display: flex;
+    align-items: baseline;
+}
+.follow {
+    text-transform: uppercase;
+}
+.footer-social {
+    display: flex;
+    margin-left: 70px;
+    justify-content: center;
+} 
+.footer-social-list:not(:last-child) {
+    margin-right: 10px
+} 
+.footer-social-list {
+width: 44px;
+    height: 44px;
+    border-radius: 50%;
+   background: rgba(255, 255, 255, 0.1);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.footer-social-list:hover,
+.footer-social-list:focus {
+    background: var(--accent-color);
+}
+.footer-social-link {
+}
+.footer-icons {
+fill: #EEEEEE;}
 .footer-list {
     text-decoration: none;
     font-size: 14px;
@@ -381,7 +454,9 @@ line-height: 1.19;
         font-style: normal;
         text-decoration: none;
    }
-   
+   .footer-cont-soc {
+    display: flex;
+   }
    .mail-container {
     margin-bottom: 9px;
    }
