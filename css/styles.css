@@ -389,6 +389,8 @@ margin-right: 10px;
         }
 .work-card {
     display: block;
+    text-decoration: none;
+    color: var(--primary-text-color);
    }
 .work-card:hover,
 .work-card:focus {
@@ -422,13 +424,13 @@ line-height: 1.19;
 }
 .footer-social {
     display: flex;
-    margin-left: 70px;
+    margin-left: 85px;
     justify-content: center;
 } 
 .footer-social-list:not(:last-child) {
     margin-right: 10px
 } 
-.footer-social-list {
+.footer-social-link {
 width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -437,8 +439,8 @@ width: 44px;
     align-items: center;
     justify-content: center;
     }
-.footer-social-list:hover,
-.footer-social-list:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
     background: var(--accent-color);
 }
 .footer-icons {
